@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Diaspetss</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <div class="cabecalho-conteudo">
+                <a href="index.html" class="logo">
+                    <span class="logo-texto">Diaspetss</span>
+                </a>
+                <nav class="navegacao">
+                    <a href="index.html" class="link-nav">Sobre</a>
+                    <a href="servicos.html" class="link-nav">Serviços</a>
+                    <a href="contato.html" class="link-nav ativo">Contato</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="secao-hero-interna">
+            <div class="container">
+                <h1 class="hero-titulo">Entre em Contato</h1>
+                <p class="hero-subtitulo">Estamos prontos para atender você e seu pet</p>
+            </div>
+        </section>
+
+        <section class="secao-contato">
+            <div class="container">
+                <div class="contato-grid">
+                    <div class="contato-info">
+                        <h2 class="secao-titulo">Fale Conosco</h2>
+                        <p class="paragrafo">Preencha o formulário ao lado ou utilize um dos nossos canais de atendimento. Teremos prazer em ajudá-lo!</p>
+                        
+                        <div class="info-item">
+                            <div class="info-icone">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="info-titulo">Endereço</h3>
+                                <p class="info-texto">Rua dos Pets, 123 - Centro<br>São Paulo, SP - CEP 01234-567</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icone">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="info-titulo">Telefone</h3>
+                                <p class="info-texto">(11) 1234-5678<br>(11) 98765-4321</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icone">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="info-titulo">E-mail</h3>
+                                <p class="info-texto">contato@diaspetss.com.br<br>atendimento@diaspetss.com.br</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icone">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="info-titulo">Horário de Funcionamento</h3>
+                                <p class="info-texto">Segunda a Sexta: 8h às 18h<br>Sábado: 8h às 14h<br>Domingo: Fechado</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="formulario-container">
+                        <form class="formulario">
+                            <div class="campo-grupo">
+                                <label for="nome" class="campo-label">Nome Completo</label>
+                                <input type="text" id="nome" name="nome" class="campo-input" placeholder="Seu nome" required>
+                            </div>
+
+                            <div class="campo-grupo">
+                                <label for="email" class="campo-label">E-mail</label>
+                                <input type="email" id="email" name="email" class="campo-input" placeholder="seu@email.com" required>
+                            </div>
+
+                            <div class="campo-grupo">
+                                <label for="telefone" class="campo-label">Telefone</label>
+                                <input type="tel" id="telefone" name="telefone" class="campo-input" placeholder="(11) 12345-6789" required>
+                            </div>
+
+                            <div class="campo-grupo">
+                                <label for="pet" class="campo-label">Nome do Pet</label>
+                                <input type="text" id="pet" name="pet" class="campo-input" placeholder="Nome do seu pet">
+                            </div>
+
+                            <div class="campo-grupo">
+                                <label for="assunto" class="campo-label">Assunto</label>
+                                <select id="assunto" name="assunto" class="campo-select" required>
+                                    <option value="">Selecione um assunto</option>
+                                    <option value="banho-tosa">Banho e Tosa</option>
+                                    <option value="veterinario">Consulta Veterinária</option>
+                                    <option value="hotel">Hotel para Pets</option>
+                                    <option value="daycare">Daycare</option>
+                                    <option value="produtos">Produtos</option>
+                                    <option value="outro">Outro</option>
+                                </select>
+                            </div>
+
+                            <div class="campo-grupo">
+                                <label for="mensagem" class="campo-label">Mensagem</label>
+                                <textarea id="mensagem" name="mensagem" class="campo-textarea" rows="5" placeholder="Escreva sua mensagem aqui..." required></textarea>
+                            </div>
+
+                            <button type="submit" class="botao botao-primario botao-full">Enviar Mensagem</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="container">
+            <div class="rodape-conteudo">
+                <div class="rodape-info">
+                    <h3 class="rodape-titulo">Diaspetss</h3>
+                    <p class="rodape-texto">Cuidando do seu pet com amor e dedicação</p>
+                </div>
+                <div class="rodape-links">
+                    <a href="index.html" class="rodape-link">Sobre</a>
+                    <a href="servicos.html" class="rodape-link">Serviços</a>
+                    <a href="contato.html" class="rodape-link">Contato</a>
+                </div>
+            </div>
+            <div class="rodape-copyright">
+                <p>&copy; 2024 Diaspetss. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
